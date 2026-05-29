@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contact — Velora Skydining</title>
+<meta name="description" content="Get in touch with Velora Skydining — address, phone, WhatsApp, contact form and live map." />
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Sora:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="loader"><div class="ring"></div><div class="lbl">VELORA</div></div>
+<div class="cursor"></div><div class="cursor-dot"></div><div class="mouse-glow"></div><div class="particles"></div>
+
+<nav class="nav">
+  <a href="index.html" class="brand"><span class="logo"></span><span>VELORA</span></a>
+  <div class="nav-links">
+    <a href="index.html">Home</a><a href="menu.html">Menu</a><a href="experience.html">Experience</a>
+    <a href="gallery.html">Gallery</a><a href="events.html">Events</a><a href="contact.html">Contact</a>
+  </div>
+  <a href="reservations.html" class="nav-cta">Reserve →</a>
+  <div class="burger"><span></span><span></span><span></span></div>
+</nav>
+
+<section class="menu-hero">
+  <div class="container">
+    <span class="eyebrow reveal">Contact</span>
+    <h1 class="reveal" style="margin-top:18px">Say hello to <span class="grad">Velora</span></h1>
+    <p class="reveal" style="max-width:600px;margin:24px auto 0">Reservations, private events, press — we reply within 24 hours.</p>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="contact-cards">
+          <div class="contact-card"><div class="ic">📍</div><h4>Visit</h4><p>42F Sky Tower<br>1 Horizon Avenue<br>Downtown</p></div>
+          <div class="contact-card"><div class="ic">📞</div><h4>Call</h4><p>+1 (000) 000 0000<br>Daily 10am–11pm</p></div>
+          <div class="contact-card"><div class="ic">✉️</div><h4>Email</h4><p>hello@velora.com<br>events@velora.com</p></div>
+          <div class="contact-card"><div class="ic">🕐</div><h4>Hours</h4><p>Tue–Sun · 6pm–2am<br>Closed Mondays</p></div>
+        </div>
+        <div class="map-frame">
+          <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-74.02,40.70,-73.95,40.76&layer=mapnik" loading="lazy"></iframe>
+        </div>
+      </div>
+
+      <form class="res-form reveal" id="contactForm">
+        <h2 style="margin-bottom:24px">Send a message</h2>
+        <div class="form-row">
+          <div class="field"><label>Full name</label><input type="text" required placeholder="Jane Doe" /></div>
+          <div class="field"><label>Email</label><input type="email" required placeholder="you@email.com" /></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label>Phone</label><input type="tel" placeholder="+1 555 0000" /></div>
+          <div class="field"><label>Topic</label><select><option>Reservation</option><option>Private event</option><option>Press / Media</option><option>Careers</option><option>Other</option></select></div>
+        </div>
+        <div class="field" style="margin-bottom:24px"><label>Message</label><textarea rows="6" required placeholder="Tell us a little about your evening…"></textarea></div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Send Message ✨</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand"><div class="brand"><span class="logo"></span><span>VELORA SKYDINING</span></div><p>A futuristic luxury rooftop restaurant where cinema, gastronomy and skyline collide.</p><div class="socials"><a href="#">in</a><a href="#">ig</a><a href="#">fb</a><a href="#">tw</a></div></div>
+      <div><h4>Visit</h4><p>42F Sky Tower<br>1 Horizon Avenue</p></div>
+      <div><h4>Pages</h4><a href="menu.html">Menu</a><a href="experience.html">Experience</a><a href="gallery.html">Gallery</a><a href="events.html">Events</a></div>
+      <div><h4>Contact</h4><a href="tel:+10000000000">+1 (000) 000 0000</a><a href="mailto:hello@velora.com">hello@velora.com</a></div>
+    </div>
+    <div class="foot-bottom">© 2026 Velora Skydining. Crafted in the clouds.</div>
+  </div>
+</footer>
+
+<a class="book-fab" href="reservations.html">✦ Book a table</a>
+<a class="whatsapp-fab" href="https://wa.me/10000000000" target="_blank">💬</a>
+<button class="ai-fab">✨</button>
+<div class="ai-panel"><div class="ai-head"><div class="av">✨</div><div><strong>Velora Concierge</strong><small>● Online</small></div></div><div class="ai-msgs"><div class="msg bot">Quickest way to reach us is WhatsApp 💬</div></div><div class="ai-input"><input placeholder="Type a message…" /><button>Send</button></div></div>
+
+<script src="script.js"></script>
+</body>
+</html>

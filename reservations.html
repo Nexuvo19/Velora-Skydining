@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Reservations — Velora Skydining</title>
+<meta name="description" content="Reserve your rooftop table at Velora — interactive table selection, guest picker and special occasion requests." />
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Sora:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="loader"><div class="ring"></div><div class="lbl">VELORA</div></div>
+<div class="cursor"></div><div class="cursor-dot"></div><div class="mouse-glow"></div><div class="particles"></div>
+
+<nav class="nav">
+  <a href="index.html" class="brand"><span class="logo"></span><span>VELORA</span></a>
+  <div class="nav-links">
+    <a href="index.html">Home</a><a href="menu.html">Menu</a><a href="experience.html">Experience</a>
+    <a href="gallery.html">Gallery</a><a href="events.html">Events</a><a href="contact.html">Contact</a>
+  </div>
+  <a href="reservations.html" class="nav-cta">Reserve →</a>
+  <div class="burger"><span></span><span></span><span></span></div>
+</nav>
+
+<section class="res-hero">
+  <div class="container">
+    <span class="eyebrow reveal">Reservations</span>
+    <h1 class="reveal" style="margin-top:18px">Reserve your <span class="grad">skyline table</span></h1>
+    <p class="reveal" style="max-width:600px;margin:24px auto 0">A few details and we'll hold your perfect spot — confirmation in seconds.</p>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="container">
+    <div class="res-grid">
+      <aside class="res-side reveal">
+        <h3>Tonight at Velora</h3>
+        <div class="info"><div class="ic">📍</div><div><strong>42F Sky Tower</strong><span>1 Horizon Avenue, Downtown</span></div></div>
+        <div class="info"><div class="ic">🕐</div><div><strong>Opening hours</strong><span>Tue–Sun · 6pm – 2am</span></div></div>
+        <div class="info"><div class="ic">👔</div><div><strong>Dress code</strong><span>Smart elegant · Sharp casual</span></div></div>
+        <div class="info"><div class="ic">✨</div><div><strong>Average evening</strong><span>3 hr tasting · 12 courses</span></div></div>
+        <a href="https://wa.me/10000000000" class="btn btn-warm" style="margin-top:18px;width:100%;justify-content:center">💬 Reserve via WhatsApp</a>
+      </aside>
+
+      <form class="res-form reveal" id="resForm">
+        <h2 style="margin-bottom:24px">Book your table</h2>
+
+        <div class="form-row">
+          <div class="field"><label>Full name</label><input type="text" required placeholder="Jane Doe" /></div>
+          <div class="field"><label>Phone</label><input type="tel" required placeholder="+1 555 0000" /></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label>Email</label><input type="email" required placeholder="you@email.com" /></div>
+          <div class="field"><label>Occasion</label>
+            <select><option>Casual dining</option><option>Anniversary</option><option>Birthday</option><option>Proposal</option><option>Business</option></select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label>Date</label><input type="date" required /></div>
+          <div class="field"><label>Time</label>
+            <select><option>6:30 PM</option><option>7:00 PM</option><option selected>8:00 PM</option><option>9:00 PM</option><option>10:00 PM</option></select>
+          </div>
+        </div>
+
+        <div class="field" style="margin-bottom:18px">
+          <label>Guests</label>
+          <div class="guest-counter"><button type="button" data-act="minus">−</button><span>2 guests</span><button type="button" data-act="plus">+</button></div>
+        </div>
+
+        <label style="font-size:.82rem;color:var(--muted);font-weight:500">Choose a table</label>
+        <div class="tables">
+          <div class="table-opt selected"><div class="ttl">Skyline Window</div><div class="cap">2–4 guests</div></div>
+          <div class="table-opt"><div class="ttl">Chef's Counter</div><div class="cap">1–2 guests</div></div>
+          <div class="table-opt"><div class="ttl">VIP Booth</div><div class="cap">4–6 guests</div></div>
+          <div class="table-opt"><div class="ttl">Sky Garden</div><div class="cap">2–4 guests</div></div>
+          <div class="table-opt"><div class="ttl">Aurora Bar</div><div class="cap">2–3 guests</div></div>
+          <div class="table-opt"><div class="ttl">Private Hall</div><div class="cap">8–20 guests</div></div>
+        </div>
+
+        <div class="field" style="margin-bottom:24px"><label>Special requests</label><textarea rows="3" placeholder="Allergies, dietary preferences, surprises…"></textarea></div>
+
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Confirm Reservation ✨</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand"><div class="brand"><span class="logo"></span><span>VELORA SKYDINING</span></div><p>A futuristic luxury rooftop restaurant where cinema, gastronomy and skyline collide.</p><div class="socials"><a href="#">in</a><a href="#">ig</a><a href="#">fb</a><a href="#">tw</a></div></div>
+      <div><h4>Visit</h4><p>42F Sky Tower<br>1 Horizon Avenue</p></div>
+      <div><h4>Pages</h4><a href="menu.html">Menu</a><a href="experience.html">Experience</a><a href="gallery.html">Gallery</a><a href="events.html">Events</a></div>
+      <div><h4>Contact</h4><a href="tel:+10000000000">+1 (000) 000 0000</a><a href="mailto:hello@velora.com">hello@velora.com</a></div>
+    </div>
+    <div class="foot-bottom">© 2026 Velora Skydining. Crafted in the clouds.</div>
+  </div>
+</footer>
+
+<a class="whatsapp-fab" href="https://wa.me/10000000000" target="_blank">💬</a>
+<button class="ai-fab">✨</button>
+<div class="ai-panel"><div class="ai-head"><div class="av">✨</div><div><strong>Velora Concierge</strong><small>● Online</small></div></div><div class="ai-msgs"><div class="msg bot">Need help picking a table? I've got you ✨</div></div><div class="ai-input"><input placeholder="Type a message…" /><button>Send</button></div></div>
+
+<script src="script.js"></script>
+</body>
+</html>
